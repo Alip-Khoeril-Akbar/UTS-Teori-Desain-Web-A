@@ -9,6 +9,7 @@
       Halaman ini berisi penjelasan tentang warteg kharomah. Seperti sejarah berdirinya, nilai dan misi, komitmen, dan ucapan terima kasih buat pelanggan setia dari warteg kharomah. Pada poin sejarah juga terdapat button untuk melihat video dari YouTube dimana video tersebut menjadi salah satu inspirasi dari berdirinya warteg kharomah.
    4. Halaman Kontak
       Halaman ini bertujuan untuk memudahkan pengunjung untuk menghubungi dan memberi masukan kepada warteg kharomah melalui formulir kritik dan saran. Terdapat juga kolom komentar, dimana kritik dan saran yang diberikan pengunjung melalui pengisian formulir akan ditampilkan pada kolom komentar.
+   
    Dalam pembuatan website tersebut saya menggunakan tiga bahasa pemrograman. Seperti, HTML, CSS, dan JavaScript. HTML berfungsi untuk membuat beberapa halaman beserta isi-isi dari setiap halaman. CSS berfungsi untuk membuat isi dari setiap halaman terlihat menarik dan rapi. Dengan menambahkan warna, layout, dan jenis font. JavaScript berfungsi untuk membuat web menjadi dinamis dan interaktif, termasuk dalam pembuatan elemen seperti pop-up dan animasi. Selain itu, saya juga menggunakan JavaScript untuk mengimplementasikan LocalStorage pada web, yang berfungsi menyimpan data komentar tanpa batas waktu kadaluarsa, kecuali dihapus secara manual. Saya juga membuat kondisi di mana hanya pembuat komentar yang dapat menghapusnya, sehingga orang lain tidak bisa menghapus komentar tersebut.
 
 Tampilan Halaman Beranda:
