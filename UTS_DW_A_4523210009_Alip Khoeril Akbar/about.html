@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warteg Kharomah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+
+<body class="fade-in">
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+  
+  <nav class="navbar">
+    <div class="logo">
+      <h3>Warteg<span class="highlight">Kharomah</span></h3>
+    </div>
+    <div id="menu-icon" class="menu-icon">
+      <i class="ph-fill ph-list"></i>
+    </div>
+    <ul id="menu-list" class="hidden">
+      <li>
+        <a href="index.html">
+          <i class="fas fa-home"></i> Beranda
+        </a>
+      </li>
+      <li>
+        <a href="menu.html">
+          <i class="fas fa-utensils"></i> Menu
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          <i class="fas fa-address-card"></i> Tentang Kami
+        </a>
+      </li>      
+      <li>
+        <a href="contac.html">
+          <i class="fas fa-envelope"></i> Kontak
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="contact-section">
+    <div class="menu-item slide-up">
+        <div class="tentang-kami">
+            <h1>Sejarah Warteg Kharomah</h1>
+            <p>Warteg Kharomah didirikan pada tahun 2016 dengan tujuan menyajikan masakan rumahan khas Indonesia. Berawal dari warung kecil, kini kami menjadi pilihan favorit berkat hidangan lezat dan bahan-bahan segar yang selalu kami utamakan.</p>
+            <p>Tonton video di bawah ini untuk mengetahui lebih lanjut inspirasi berdirinya Warteg Kharomah.</p>
+            <button class="video-btn" onclick="showVideo()">Tampilkan Video</button>
+        </div>    
+        <div class="video-overlay" id="videoOverlay" onclick="closeVideo()"></div>
+        <div class="video-container" id="videoContainer">
+            <button class="close-btn" onclick="closeVideo()">Tutup</button>
+            <iframe id="videoFrame" width="560" height="315"
+                    src="" 
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>    
+    </div>
+
+    <div class="content-wrapper">
+      <div class="menu-item slide-up">
+        <div class="nilai">
+          <h2><i class="fas fa-heart"></i> Nilai dan Misi</h2>
+          <p>Kami percaya bahwa makanan yang baik berasal dari bahan-bahan yang segar dan dimasak dengan sepenuh hati. Misi kami adalah memberikan pengalaman kuliner yang hangat dan autentik kepada pelanggan kami, seperti makan di rumah sendiri.</p>
+       </div>
+      </div>
+
+      <div class="menu-item slide-up">
+         <div class="komitmen">
+            <h2><i class="fas fa-check-circle"></i> Komitmen Kami</h2>
+            <p>Warteg Kharomah berkomitmen untuk mempertahankan kualitas dan keaslian setiap hidangan yang kami sajikan. Kami juga berupaya untuk terus mendukung petani lokal dengan menggunakan bahan-bahan segar dari pasar tradisional.</p>
+          </div>
+      </div>
+
+      <div class="menu-item slide-up">
+        <div class="terima">
+          <h2><i class="fas fa-thumbs-up"></i> Terima Kasih</h2>
+          <p>Terima kasih kepada seluruh pelanggan setia yang telah menjadi bagian dari perjalanan kami. Kami akan terus berinovasi dan berusaha menjadi tempat makan yang selalu Anda rindukan.</p>
+         </div>
+      </div>
+    </div>
+  </div>
+    
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <h2>Alamat Lengkap</h2>
+        <p>Jl. Kemang Utara No. 9E, Kel. Bangka, Kec. Mampang Prapatan, Jakarta Selatan, Indonesia</p>
+        <p>Telp: (021) 85716667720</p>
+        <p>Jam Operasional: 06.00 - 01.30 WIB</p>
+     </div>
+      <div class="footer-right">
+        <div class="contact-info">
+          <a href="https://wa.me/6285716667720" target="_blank" class="contact-link">
+            <i class="fab fa-whatsapp"></i> 0857-1666-7720
+          </a>
+          <a href="mailto:info@wartegkharomah.com" class="contact-link">
+            <i class="fas fa-envelope"></i> info@wartegkharomah.com
+          </a>
+        </div>
+        <p>&copy; 2023 Warteg Kharomah. Semua hak dilindungi.</p>
+      </div>
+   </div>
+  </footer>   
+    <script src="script.js" defer></script>
+</body>
+</html>

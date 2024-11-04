@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | Warteg Kharomah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="fade-in">
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+  
+  <nav class="navbar">
+    <div class="logo">
+      <h3>Warteg<span class="highlight">Kharomah</span></h3>
+    </div>
+    <div id="menu-icon" class="menu-icon">
+      <i class="ph-fill ph-list"></i>
+    </div>
+    <ul id="menu-list" class="hidden">
+      <li>
+        <a href="index.html">
+          <i class="fas fa-home"></i> Beranda
+        </a>
+      </li>
+      <li>
+        <a href="menu.html">
+          <i class="fas fa-utensils"></i> Menu
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          <i class="fas fa-address-card"></i> Tentang Kami
+        </a>
+      </li>  
+      <li>
+        <a href="contac.html">
+          <i class="fas fa-envelope"></i> Kontak
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="contact-section">
+    <div class="contact-header">
+      <h1>Berikan Kritik, Saran, atau Masukan Anda</h1>
+      <p>Masukan dari Anda sangat berarti bagi kami agar dapat terus meningkatkan pelayanan dan kualitas Warteg Kharomah.</p>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="menu-item slide-up">
+        <div class="section">
+          <h2>Hubungi Kami Langsung</h2>
+          <p>Jika Anda ingin menghubungi kami langsung, silakan klik tombol di bawah ini untuk mengirim pesan melalui WhatsApp:</p>
+          <a href="https://wa.me/6285716667720?text=Halo%20Warteg%20Enak,%20saya%20ingin%20memberikan%20masukan!" class="cta-button" target="_blank">
+              <i class="fab fa-whatsapp"></i> Hubungi Kami
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-item slide-up">
+        <div class="feedback-form-section">
+          <h2>Formulir Kritik dan Saran</h2>
+          <p>Isi formulir di bawah ini untuk memberikan kritik, saran, atau masukan bagi kami. Kami akan sangat senang mendengar pendapat Anda!</p>
+          <form class="feedback-form">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+      
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Alamat Email Anda" required>
+      
+              <label for="message">Kritik dan Saran</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tulis kritik, saran, atau masukan Anda di sini..." required></textarea>
+      
+              <button type="submit" class="cta-button">Kirim Masukan</button>
+          </form>
+          <div id="alert-message" class="alert"></div>
+      </div>     
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-item slide-up">
+    <div id="comments-section">
+      <h3>Komentar</h3>
+      <div id="comments-list"></div>
+    </div>
+  </div>  
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <h2>Alamat Lengkap</h2>
+            <p>Jl. Kemang Utara No. 9E, Kel. Bangka, Kec. Mampang Prapatan, Jakarta Selatan, Indonesia</p>
+            <p>Telp: (021) 85716667720</p>
+            <p>Jam Operasional: 06.00 - 01.30 WIB</p>
+        </div>
+        <div class="footer-right">
+            <div class="contact-info">
+                <a href="https://wa.me/6285716667720" target="_blank" class="contact-link">
+                    <i class="fab fa-whatsapp"></i> 0857-1666-7720
+                </a>
+                <a href="mailto:info@wartegkharomah.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> info@wartegkharomah.com
+                </a>
+            </div>
+            <p>&copy; 2023 Warteg Kharomah. Semua hak dilindungi.</p>
+        </div>
+    </div>
+</footer>
+  <script src="script.js" defer></script> 
+</body>
+</html>
